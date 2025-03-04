@@ -1,0 +1,5 @@
+pyserial~=3.5
+PyQt5~=5.15.11
+music21~=9.1.0
+mido~=1.3.2
+basic-pitch==0.4.0
