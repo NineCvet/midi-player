@@ -1,0 +1,1 @@
+This system converts audio files (MP3) to MIDI format, processes MIDI notes to fit within a specific octave range, and sends the data to a hand-built robotic system controlled by Arduino, equipped with servo motors to play the notes by pressing on a synthesizer.
