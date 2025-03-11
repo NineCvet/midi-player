@@ -307,9 +307,9 @@ class WorkerThread(QThread):
     @staticmethod
     def fit_midi_to_octave_range(midi_file, output_file, min_note='C4', max_note='C5', gap_duration=0.2,
                                  tempo_factor=2.5, duration_extension=0.5):
-        score = converter.parse(midi_file)
 
-        original_notes = transpose_to_octave(score, min_note, max_note)
+        score = converter.parse(midi_file)
+        score = transpose_to_octave(score, min_note, max_note)
 
         # Remove repeating chords
         unique_score = remove_repeating_chords(score)
